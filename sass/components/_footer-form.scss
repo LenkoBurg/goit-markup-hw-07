@@ -1,0 +1,30 @@
+.social-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  margin-bottom: 20px;
+
+  color: var(--secondary-text-color);
+}
+.footer-b {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--secondary-text-color);
+}
+.footer-span {
+  display: flex;
+  justify-content: center;
+}
+.footer-imput {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  color: var(--secondary-text-color);
+  background: none;
+}

@@ -1,0 +1,8 @@
+.linknav-list-left {
+  display: flex;
+  align-items: center;
+  &:hover .header-icon,
+  &:focus .header-icon {
+    fill: var(--accent-color);
+  }
+}

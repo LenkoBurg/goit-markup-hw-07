@@ -1,0 +1,11 @@
+.auth-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin: 0px;
+  margin-left: auto;
+
+  &.linknav-list + .linknav-list {
+    margin-left: 50px;
+  }
+}
