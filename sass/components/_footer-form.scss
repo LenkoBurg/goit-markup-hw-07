@@ -1,24 +1,14 @@
-.social-h {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  margin: 0;
-  margin-bottom: 20px;
-
-  color: var(--secondary-text-color);
-}
-.footer-b {
+.footer-form__b {
   display: block;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--secondary-text-color);
 }
-.footer-span {
+.footer-form__span {
   display: flex;
   justify-content: center;
 }
-.footer-imput {
+.footer-form__imput {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
