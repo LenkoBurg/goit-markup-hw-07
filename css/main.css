@@ -5,6 +5,7 @@
   --primary-bacground-color: #f5f4fa;
   --secondary-text-color: #ffffff;
   --secondary-background-color: #2f303a;
+  --main-font: "Roboto", sans-serif;
 }
 
 .visual-hiden {
@@ -19,7 +20,7 @@
 }
 
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -658,8 +659,7 @@ p {
   fill: var(--accent-color);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   border-color: var(--accent-color);
 }
 
